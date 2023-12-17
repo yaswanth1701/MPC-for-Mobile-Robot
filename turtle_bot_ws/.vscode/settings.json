@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yaswanth/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages"
+    ],
+    "git.ignoreLimitWarning": true,
+    "python.analysis.extraPaths": [
+        "/home/yaswanth/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "/opt/openrobots/lib/python3.8/site-packages",
+        "./TURTLE_BOT_WS/src/turtle_bot_control/src"
+    ],
+    "ros.distro": "noetic"
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+import rospy
+from turtle_bot_control.MPC import MPC
+
+if __name__ == "__main__":
+    rospy.init_node("MPC_controller")
+    rospy.loginfo("[[mpc_node]: Starting MPC controller")
+
+    controller = MPC()
+    r = rospy.Rate(controller.mpc_rate)
+
+    while not rospy.is_shutdown():
+        controller.run_mpc()
+        r.sleep()
