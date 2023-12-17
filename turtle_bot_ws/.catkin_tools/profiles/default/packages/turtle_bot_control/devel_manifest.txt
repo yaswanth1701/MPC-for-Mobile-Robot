@@ -1,8 +1,0 @@
-turtle_bot_control
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/cmake.lock /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/./cmake.lock
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/lib/python3/dist-packages/turtle_bot_control/__init__.py /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/lib/python3/dist-packages/turtle_bot_control/__init__.py
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/lib/pkgconfig/turtle_bot_control.pc /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/lib/pkgconfig/turtle_bot_control.pc
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/lib/turtle_bot_control/cmake.lock /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/lib/turtle_bot_control/cmake.lock
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/lib/turtle_bot_control/mpc_node /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/lib/turtle_bot_control/mpc_node
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/share/turtle_bot_control/cmake/turtle_bot_controlConfig.cmake /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/share/turtle_bot_control/cmake/turtle_bot_controlConfig.cmake
-/home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/.private/turtle_bot_control/share/turtle_bot_control/cmake/turtle_bot_controlConfig-version.cmake /home/yaswanth/MPC-for-Mobile-Robot/turtle_bot_ws/devel/share/turtle_bot_control/cmake/turtle_bot_controlConfig-version.cmake
