@@ -25,7 +25,7 @@
         args="-urdf -model turtlebot3 -x $(arg x) -y $(arg y) -z $(arg z) -param robot_description"/>
   <!-- to publish the tranforms using model_state -->
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="waffle_state_publisher"/>
-  <node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 map odom" />
+  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 map odom" /> -->
 
   <!-- launch rviz node  -->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtle_bot_sim)/rviz/turtle_bot.rviz"/>
