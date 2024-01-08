@@ -14,7 +14,7 @@ This repository contains implementation of model predictive control for mobile r
 
 <p align="center">
 
-<img src="https://github.com/yaswanth1701/MPC-for-Mobile-Robot/assets/92177410/f8bc1513-1fde-4419-b944-6523406d1059" width="800" height="400">
+<img src="https://github.com/yaswanth1701/MPC-for-Mobile-Robot/assets/92177410/f8bc1513-1fde-4419-b944-6523406d1059" width="600" height="300">
 </p>
 
 - Path planning using A star.
