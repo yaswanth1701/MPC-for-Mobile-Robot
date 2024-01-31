@@ -5,15 +5,11 @@
   <arg name="x" default="0"/>
   <arg name="y" default="0"/>
   <arg name="z" default="0.5"/>
-
-
-  <!-- specify the robot urdf path -->
-
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_waffle.urdf.xacro"/>
 
   <!-- launch gazebo for simulation   -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="world/empty_world"/> <!-- Note: the world_name is with respect to GAZEBO_RESOURCE_PATH environmental variable -->
+    <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/empty_world.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="false"/>
@@ -25,7 +21,7 @@
         args="-urdf -model turtlebot3 -x $(arg x) -y $(arg y) -z $(arg z) -param robot_description"/>
   <!-- to publish the tranforms using model_state -->
   <node pkg="robot_state_publisher" type="robot_state_publisher" name="waffle_state_publisher"/>
-  <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 map odom" /> -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="link1_broadcaster" args="0 0 0 0 0 0 1 map odom" />
 
   <!-- launch rviz node  -->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtle_bot_sim)/rviz/turtle_bot.rviz"/>
